@@ -11,7 +11,7 @@ const LanguageContext = createContext<LanguageContextType | null>(null);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const { i18n } = useTranslation();
-  const [language, setLanguageState] = useState('hi');
+  const [language, setLanguageState] = useState('en');
 
   const supportedLanguages = [
     { code: 'hi', name: 'Hindi', nativeName: 'हिंदी' },

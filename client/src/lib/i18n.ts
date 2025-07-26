@@ -22,7 +22,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'hi', // Default language
+    lng: 'en', // Default language
     fallbackLng: 'en',
     defaultNS: 'common',
     
